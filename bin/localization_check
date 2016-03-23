@@ -1,0 +1,8 @@
+#!/usr/bin/ruby
+
+require 'localization_check'
+require 'version_checker'
+
+notifyAboutUpdates("localization_check")
+
+check_localizations
